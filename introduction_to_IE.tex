@@ -11,7 +11,7 @@
 \usepackage{yhmath}
 %\usepackage{cite}
 \usepackage[style=ieee]{biblatex}
-
+\renewcommand{\figurename}{Fig.}
 
 \author{未央-机械01~金佳熠\\Jiayi Jin,~Weiyang College}
 \title{\heiti 工业工程概述\\A Brief Introduction to Industrial Engineering}
@@ -62,7 +62,7 @@
 \subsubsection{工业工程师做什么}
 工业工程师参与了生产和加工的所有阶段。他们可能从头开始设计新设施，或者可能负责升级、扩展、重新配置现有设施。他们可能需要设计新设备或为从外部供应商处购买的设备编写规格并确保其满足要求。他们可能还需要重新利用现有的设施和设备，设计新的流程以及设计新的工具和固定装置。\par
 为了维持这些标准，工业工程师必须具备许多工程领域的基本工作知识，并且必须熟悉工作流程，设备，工具和物料，以便设计出符合成本，质量，安全和环保要求的设施、系统和设备。\par
-此外，工业工程师依靠计算机辅助设计（CAD）系统来设计设施和设备。他们还使用计算机建模来模拟流程和供应链，以最大化效率并最小化成本。
+此外，工业工程师依靠计算机辅助设计（CAD）系统来设计设施和设备。他们还使用计算机建模来模拟流程和供应链，以最大化效率并最小化成本\cite{lucas_2014_what}。
 
 \begin{itemize}
 \item 价值工程\\价值工程基于以下命题：在任何复杂的产品中，80％的客户只需要产品中20％的功能。通过专注于产品开发，可以以较低的成本为市场的大部分主体生产优质的产品。当客户需要更多功能时，会将它们作为选项出售给他们。这种方法在以工程为主要产品成本的复杂的机电产品（例如计算机打印机）中很有价值。\\
@@ -79,13 +79,42 @@
 
 
 
-
-
-
-
-
 \newpage
 \section{工业工程的主要发展历程}
+工业工程诞生于19世纪晚期。制造、政府和公共服务组织在整个20世纪所面临的挑战和需求使得工业工程迅猛发展，成为一个充满活力的专业。工业工程的未来不仅取决于工业工程师应对并利用运营和组织的变革的能力，更取决于他们预测从而引领变革本身的能力。\par
+20世纪上半叶，工业工程诞生的这一段历史为主导其实践和发展的许多原理提供了重要见解。尽管这些原理继续影响着这个专业，许多目前已经形成并将继续完善的概念性和技术性的发展源自20世纪下半叶\cite{maynard_2001_maynards}。
+
+\subsection{工业工程的起源}
+历史学家之间普遍认为，工业工程专业的起源可以追溯到工业革命。飞梭、珍妮纺纱机、蒸汽机等有助于推进纺织工业中的传统手动操作机械化的技术带来了规模经济，使得大规模集中生产首次具有吸引力。生产系统的概念正起源于这些创新的工厂。
+\subsubsection{劳动分工}
+亚当·斯密（Adam Smith）在其专著《国富论》中引入的劳动分工（Division of Labour）概念和资本主义的“看不见的手”（ the "Invisible Hand" of capitalism）概念激发了许多工业革命的技术创新者建立和实施工厂体系。经过詹姆斯·瓦特（James Watt）和马修·布尔顿（Matthew Boulton）的努力，建立了世界上第一个集成的机器制造工厂，实施了诸如减少能耗、提高生产率的成本控制系统以及为工匠提供技能培训的概念\cite{maynard_2001_maynards}。\par
+查尔斯·巴贝奇（Charles Babbage）在19世纪早期访问英格兰和美国的工厂后，在他的《论机械和制造商的经济》一书中引入了于工业工程密切相关的概念。这本书包括诸如完成某个任务所需的时间，将任务细分为较小和较不详细的子任务的效果以及从重复性任务中获得的好处等主题\cite{babbage_1832_on}。
+\subsubsection{可互换零件}
+Eli Whitney和Simeon North为美国政府证明了可互换零件（Interchangeable Parts）的概念在制造步枪和手枪中的可行性。在这个系统下，单个零件被批量生产，这样就可以在任何成品中使用。这大大减少了对专业工人技能的需求，最终引发了之后对工业环境的研究\cite{maynard_2001_maynards}。
+
+\subsection{工业工程的先驱}
+弗雷德里克·泰勒（Frederick Taylor，1856--1915）通常被认为是工业工程之父。他拥有史蒂文斯大学的机械工程学位，并获得了多项发明专利。他的著作《商店管理》和《科学管理之原则》于20世纪初出版，标志着工业工程的开始。他的方法是基于改进工作方法，制定工作标准以及减少执行工作所需的时间来提高工作效率。\par
+普渡大学工业工程学院的夫妻团队弗兰克·吉尔布雷斯（Frank Gilbreth，1868--1924）和莉莲·吉尔布雷斯（Lillian Gilbreth，1878--1972）是工业工程运动的另一块基石。他们将人体运动的要素分为18种基本要素，称为基本动作要素（therbligs）\footnote{Therbligs are 18 kinds of elemental motions, used in the study of motion economy in the workplace. A workplace task is analyzed by recording each of the therblig units for a process, with the results used for optimization of manual labour by eliminating unneeded movements.}。这可以使分析人员可以在不知道完成工作所需时间的情况下设计工作。这些被认为是一个更广阔的领域——人因工程学的开始。\par
+\begin{figure}[!hbp]
+	\centering
+	\includegraphics[scale=0.4]{therbligs.png}
+	\caption{The standard symbols used in representing the 18 therbligs}
+	\label{therbligs}
+\end{figure}
+1908年，宾夕法尼亚州立大学提供了第一门工业工程课程作为选修课，在雨果·迪默（Hugo Diemer）的努力下，该课程于1909年成为独立计划。康奈尔大学于1933年开始授予工业工程博士学位。\par
+1912年，亨利·劳伦斯·甘特（Henry Laurence Gantt）制定了甘特图\footnote{A Gantt chart is a type of bar chart that illustrates a project schedule, named after its inventor, Henry Gantt (1861–1919), who designed such a chart around the years 1910–1915. Modern Gantt charts also show the dependency relationships between activities and the current schedule status.}。该图表之后由Wallace Clark加以改进，成为我们今天熟悉的样式。\par
+\begin{figure}[!hbp]
+	\centering
+	\includegraphics[scale=.4]{ganttchart.png}
+	\caption{A Gantt chart showing three kinds of schedule dependencies (in red) and percent complete indications}
+	\label{ganttchart}
+\end{figure}
+
+随着装配线的发展，亨利·福特（Henry Ford）的工厂在该领域取得了重大突破。福特将一辆汽车的组装时间从700多小时减少到1.5小时。此外，他还是资本主义福利经济（welfare capitalism）的先驱，率先为员工提供财务激励措施以提高生产率。\par
+
+20世纪40年代开发综合质量管理系统（TQM）在第二次世界大战之后发展迅速，是战后日本复兴的一部分内容。\par
+1948年，美国工业工程学会成立。随着人们的兴趣点从仅仅提高机器性能延伸到提高整个制造过程的性能，F. W. Taylor和Gilbreths把他们的早期工作记录在了提交给美国机械工程师学会的一篇论文中。论文从介绍Henry R. Towne（1844-1924）的论文《作为经济学家的工程师》（1186）开始\cite{americansocietyofmechanicalengineers_1880_transactions}。
+
 
 
 
